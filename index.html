@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JOKENPO</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="jogo.js"></script>
 </head>
 <body>
     <div id="principal">
@@ -16,15 +17,15 @@
             </div><!--Fim da div de titulos-->
             <div><!--Botao pedra-->
                 <h2>Pedra</h2>
-                <button id="JO" type = "button"></button>
+                <button onclick="jogarJokenpo(1);" class="JO" type = "button"></button>
             </div>
             <div><!--Botao papel-->
                 <h2>Papel</h2>
-                <button type="button" id="KEN"></button>
+                <button onclick="jogarJokenpo(2);" type="button" class="KEN"></button>
             </div>
-            <div>
+            <div><!--Botao tesoura-->
                 <h2>Tesoura</h2>
-                <button type="button" id="PO"></button><br><br>
+                <button onclick="jogarJokenpo(3);" type="button" class="PO"></button><br><br>
             </div>
         </div>
     </div>
