@@ -1,0 +1,30 @@
+#conteudo{
+    width: 1000px;
+    margin: 0px auto;
+    border: 5px outset grey;
+    box-shadow: 2px 2px 2px black;
+    background-color: beige;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+#JO{
+    background: url(imagens/stone_Easy-Resize.com.jpg)no-repeat;
+    background-position: center;
+    width: 140px;
+    height: 120px;
+    border: 1px solid black;
+}
+#KEN{
+    background: url(imagens/papel_Easy-Resize.com.jpg)no-repeat;
+    background-position: center;
+    width: 140px;
+    height: 120px;
+    border: 1px solid black;
+}
+#PO{
+    background: url(imagens/tesoura_Easy-Resize.com.jpg)no-repeat;
+    background-position: center;
+    width: 140px;
+    height: 120px;
+    border: 1px solid black;
+}
